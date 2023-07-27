@@ -51,7 +51,7 @@
 
     <context-param>
         <param-name>GEOSERVER_DATA_DIR</param-name>
-        <param-value>/data/geoserver/data</param-value>
+        <param-value>/Users/zhangliangpan/IdeaProjects/2.22/fork/geoserver/src/web/app/lib/data</param-value>
     </context-param>
 
     <!-- pick up all spring application contexts -->

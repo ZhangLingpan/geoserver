@@ -1,0 +1,61 @@
+<wms>
+  <id>WMSInfoImpl-5efd2432:1899127d70d:-7fc9</id>
+  <workspace>
+    <id>WorkspaceInfoImpl-5efd2432:1899127d70d:-7fea</id>
+  </workspace>
+  <enabled>true</enabled>
+  <name>My GeoServer WMS</name>
+  <title>My GeoServer WMS</title>
+  <maintainer>http://geoserver.org/comm</maintainer>
+  <abstrct>
+This is a description of your Web Map Server.
+     </abstrct>
+  <accessConstraints>NONE</accessConstraints>
+  <fees>NONE</fees>
+  <versions>
+    <org.geotools.util.Version>
+      <version>1.1.1</version>
+    </org.geotools.util.Version>
+    <org.geotools.util.Version>
+      <version>1.3.0</version>
+    </org.geotools.util.Version>
+  </versions>
+  <keywords>
+    <string>WFS</string>
+    <string>WMS</string>
+    <string>GEOSERVER</string>
+  </keywords>
+  <citeCompliant>false</citeCompliant>
+  <onlineResource>http://geoserver.org</onlineResource>
+  <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
+  <verbose>false</verbose>
+  <metadata>
+    <entry key="svgRenderer">Batik</entry>
+    <entry key="svgAntiAlias">true</entry>
+  </metadata>
+  <bboxForEachCRS>false</bboxForEachCRS>
+  <watermark>
+    <enabled>false</enabled>
+    <position>BOT_RIGHT</position>
+    <transparency>0</transparency>
+  </watermark>
+  <interpolation>Nearest</interpolation>
+  <getFeatureInfoMimeTypeCheckingEnabled>false</getFeatureInfoMimeTypeCheckingEnabled>
+  <getMapMimeTypeCheckingEnabled>false</getMapMimeTypeCheckingEnabled>
+  <dynamicStylingDisabled>false</dynamicStylingDisabled>
+  <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
+  <maxBuffer>25</maxBuffer>
+  <maxRequestMemory>0</maxRequestMemory>
+  <maxRenderingTime>0</maxRenderingTime>
+  <maxRenderingErrors>0</maxRenderingErrors>
+  <maxRequestedDimensionValues>100</maxRequestedDimensionValues>
+  <cacheConfiguration>
+    <enabled>false</enabled>
+    <maxEntries>1000</maxEntries>
+    <maxEntrySize>51200</maxEntrySize>
+  </cacheConfiguration>
+  <remoteStyleMaxRequestTime>60000</remoteStyleMaxRequestTime>
+  <remoteStyleTimeout>30000</remoteStyleTimeout>
+  <defaultGroupStyleEnabled>true</defaultGroupStyleEnabled>
+  <autoEscapeTemplateValues>false</autoEscapeTemplateValues>
+</wms>

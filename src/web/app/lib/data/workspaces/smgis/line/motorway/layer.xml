@@ -1,0 +1,22 @@
+<layer>
+  <name>motorway</name>
+  <id>LayerInfoImpl-5efd2432:1899127d70d:-7fe4</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-78ff667e:12476299803:-7ffc</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-5efd2432:1899127d70d:-7fd2</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-5efd2432:1899127d70d:-7fe5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-26 07:46:56.194 UTC</dateCreated>
+  <dateModified>2023-07-26 08:14:01.686 UTC</dateModified>
+</layer>

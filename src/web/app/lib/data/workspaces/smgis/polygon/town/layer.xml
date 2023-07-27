@@ -1,0 +1,16 @@
+<layer>
+  <name>town</name>
+  <id>LayerInfoImpl-5efd2432:1899127d70d:-7fd9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-78ff667e:12476299803:-7ffa</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-5efd2432:1899127d70d:-7fda</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-26 07:48:20.941 UTC</dateCreated>
+</layer>

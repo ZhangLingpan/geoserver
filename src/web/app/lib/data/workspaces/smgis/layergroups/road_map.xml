@@ -1,0 +1,78 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-5efd2432:1899127d70d:-7fb3</id>
+  <name>road_map</name>
+  <mode>SINGLE</mode>
+  <title>road_map</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-5efd2432:1899127d70d:-7fea</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-5efd2432:1899127d70d:-7fdb</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-5efd2432:1899127d70d:-7fde</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-5efd2432:1899127d70d:-7fd7</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-5efd2432:1899127d70d:-7fe2</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-5efd2432:1899127d70d:-7fe0</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-5efd2432:1899127d70d:-7fe6</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-5efd2432:1899127d70d:-7fe4</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-5efd2432:1899127d70d:-7fd9</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-5efd2432:1899127d70d:-7fd5</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-5efd2432:1899127d70d:-7fce</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-5efd2432:1899127d70d:-7fcd</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-5efd2432:1899127d70d:-7fcf</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-5efd2432:1899127d70d:-7fcc</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-5efd2432:1899127d70d:-7fcb</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-5efd2432:1899127d70d:-7fd1</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-5efd2432:1899127d70d:-7fd2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-5efd2432:1899127d70d:-7fb1</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-5efd2432:1899127d70d:-7fb2</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>119.20064780720423</minx>
+    <maxx>120.7808396634813</maxx>
+    <miny>28.38219098158431</miny>
+    <maxy>29.717280086431543</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2023-07-26 09:28:46.125 UTC</dateCreated>
+  <dateModified>2023-07-27 02:19:04.548 UTC</dateModified>
+</layerGroup>

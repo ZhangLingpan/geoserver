@@ -1,0 +1,2444 @@
+27 七月 14:19:30 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+27 七月 14:19:34 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+27 七月 14:19:34 CONFIG [org.geoserver] - Loading catalog /Users/zhangliangpan/IdeaProjects/2.22/fork/geoserver/src/web/app/lib/data
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'polygon'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'point'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'raster'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'generic'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'line'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded default workspace 'smgis'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded workspace 'smgis'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'majorway'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'waterline'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'waterzone'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'greenland'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'town'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'secondaryway'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'zone'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'motorway'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'otherway'
+27 七月 14:19:34 CONFIG [org.geoserver] - Loaded style 'district'
+27 七月 14:19:35 CONFIG [org.geoserver] - Loaded data store 'line', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded feature type 'waterline', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded layer 'waterline'
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded feature type 'secondaryway', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded layer 'secondaryway'
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded feature type 'otherway', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded layer 'otherway'
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded feature type 'motorway', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded layer 'motorway'
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded feature type 'majorway', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded layer 'majorway'
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded data store 'polygon', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded feature type 'zone', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded layer 'zone'
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded feature type 'city', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded layer 'city'
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded feature type 'town', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded layer 'town'
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded feature type 'waterzone', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded layer 'waterzone'
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded layer group 'road_map'
+27 七月 14:19:36 CONFIG [org.geoserver] - Read catalog in 1.954 s
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded service 'wcs', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded service 'wfs', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded service 'wms', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--1ee818b8:1899600b869:-8000', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded service 'WPSInfoImpl-5efd2432:1899127d70d:-7ffe', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-5efd2432:1899127d70d:-7fc6', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-5efd2432:1899127d70d:-7fc7', enabled
+27 七月 14:19:36 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-5efd2432:1899127d70d:-7fc9', enabled
+27 七月 14:19:37 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-5efd2432:1899127d70d:-7fc8', enabled
+27 七月 14:19:37 CONFIG [org.geoserver] - Loaded service 'WPSInfoImpl-5efd2432:1899127d70d:-7fc5', enabled
+27 七月 14:19:37 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/Users/zhangliangpan/IdeaProjects/2.22/fork/geoserver/src/web/app/lib/data/gwc'.
+27 七月 14:19:37 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+27 七月 14:19:37 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+27 七月 14:19:37 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+27 七月 14:19:37 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+27 七月 14:19:37 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+27 七月 14:19:37 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+27 七月 14:19:37 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+27 七月 14:19:37 CONFIG [gwc.layer] - Loaded 10 tile layers in 37.59 ms
+27 七月 14:19:37 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+27 七月 14:19:37 CONFIG [storage.DefaultStorageFinder] - Found servlet context parameterGEOSERVER_DATA_DIR set to /Users/zhangliangpan/IdeaProjects/2.22/fork/geoserver/src/web/app/lib/data, using it as the default prefix.
+27 七月 14:19:37 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+27 七月 14:19:38 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/Users/zhangliangpan/IdeaProjects/2.22/fork/geoserver/src/web/app/lib/data/gwc'.
+27 七月 14:19:38 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/Users/zhangliangpan/IdeaProjects/2.22/fork/geoserver/src/web/app/lib/data/gwc'.
+27 七月 14:19:38 CONFIG [diskquota.ConfigLoader] - Quota config is: gwc/geowebcache-diskquota.xml
+27 七月 14:19:38 CONFIG [diskquota.ConfigLoader] - Quota config is: gwc/geowebcache-diskquota.xml
+27 七月 14:19:38 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+27 七月 14:19:38 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+27 七月 14:19:38 CONFIG [diskquota.DiskQuotaMonitor] - 10 layers attached to global quota 10.0 GB
+27 七月 14:19:38 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 60 SECONDS
+27 七月 14:19:46 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+27 七月 14:19:46 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+27 七月 14:19:46 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+27 七月 14:19:46 WARN   [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+27 七月 14:19:47 CONFIG [geoserver.wps] - Found 5 bindable processes in GeoServer specific processes
+27 七月 14:19:47 CONFIG [geoserver.wps] - Found 89 bindable processes in Deprecated processes
+27 七月 14:19:47 CONFIG [geoserver.wps] - Blacklisting process ras:ConvolveCoverage as the input kernel of type class javax.media.jai.KernelJAI cannot be handled
+27 七月 14:19:47 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input zones of type class java.lang.Object cannot be handled
+27 七月 14:19:47 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input nodata of type class it.geosolutions.jaiext.range.Range cannot be handled
+27 七月 14:19:47 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input rangeData of type class java.lang.Object cannot be handled
+27 七月 14:19:47 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the output zonal statistics of type interface java.util.List cannot be handled
+27 七月 14:19:47 CONFIG [geoserver.wps] - Found 18 bindable processes in Raster processes
+27 七月 14:19:47 CONFIG [geoserver.wps] - Blacklisting process vec:GroupCandidateSelection as the input groupingAttributes of type class java.lang.Object cannot be handled
+27 七月 14:19:47 CONFIG [geoserver.wps] - Found 31 bindable processes in Vector processes
+27 七月 14:19:47 CONFIG [geoserver.wps] - Found 48 bindable processes in Geometry processes
+27 七月 14:19:47 CONFIG [geoserver.wps] - Found 1 bindable processes in PolygonLabelProcess
+27 七月 14:19:47 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+27 七月 14:19:47 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+27 七月 14:19:47 CONFIG [geoserver.importer] - Initial importer configuration
+27 七月 14:19:48 WARN   [geoserver.security] - security/masterpw.info is a security risk. Please read this file and remove it afterward
+27 七月 14:19:48 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+27 七月 14:19:48 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+27 七月 14:19:48 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+27 七月 14:19:48 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+27 七月 14:19:48 INFO   [geoserver.importer] - Enabling import store: memory
+27 七月 14:20:07 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:07 WARN   [geotools.xsd] - Sax parser property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' not recognized.  Xerces version is incompatible.
+27 七月 14:20:10 WARN   [geotools.xsd] - Sax parser property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' not recognized.  Xerces version is incompatible.
+27 七月 14:20:10 WARN   [geotools.xsd] - Sax parser property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' not recognized.  Xerces version is incompatible.
+27 七月 14:20:10 WARN   [geotools.xsd] - Sax parser property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' not recognized.  Xerces version is incompatible.
+27 七月 14:20:10 WARN   [geotools.xsd] - Sax parser property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' not recognized.  Xerces version is incompatible.
+27 七月 14:20:10 WARN   [geotools.xsd] - Sax parser property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' not recognized.  Xerces version is incompatible.
+27 七月 14:20:11 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[119.20064780720423 : 120.7808396634813, 28.38219098158431 : 29.717280086431543]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 648
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=119.20064780720423,28.38219098158431,120.7808396634813,29.717280086431543, VERSION=1.1.0, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=648, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+27 七月 14:20:11 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:13 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[118.93524169921875 : 121.04461669921875, 28.16070556640625 : 29.94049072265625]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 648
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=118.93524169921875,28.16070556640625,121.04461669921875,29.94049072265625, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=648, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+27 七月 14:20:15 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:16 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[119.76333618164062 : 120.81802368164062, 28.58367919921875 : 29.47357177734375]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 648
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=119.76333618164062,28.58367919921875,120.81802368164062,29.47357177734375, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=648, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+27 七月 14:20:23 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:23 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[118.98605346679688 : 121.59530639648438, 28.58367919921875 : 29.47357177734375]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 648
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=118.98605346679688,28.58367919921875,121.59530639648438,29.47357177734375, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=648, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:24 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:25 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[118.98605346679688 : 121.59530639648438, 28.34197998046875 : 29.71527099609375]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=118.98605346679688,28.34197998046875,121.59530639648438,29.71527099609375, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:26 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:26 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[119.19479370117188 : 121.80404663085938, 28.126373291015625 : 29.499664306640625]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=119.19479370117188,28.126373291015625,121.80404663085938,29.499664306640625, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:27 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:27 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[119.91233825683594 : 121.21696472167969, 28.580245971679688 : 29.266891479492188]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=119.91233825683594,28.580245971679688,121.21696472167969,29.266891479492188, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:30 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:30 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.24742126464844 : 120.89973449707031, 28.813705444335938 : 29.157028198242188]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.24742126464844,28.813705444335938,120.89973449707031,29.157028198242188, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:32 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:32 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.29891967773438 : 120.95123291015625, 28.698692321777344 : 29.042015075683594]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.29891967773438,28.698692321777344,120.95123291015625,29.042015075683594, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:34 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:34 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.22819519042969 : 120.88050842285156, 28.759803771972656 : 29.103126525878906]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.22819519042969,28.759803771972656,120.88050842285156,29.103126525878906, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:35 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:35 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.27557373046875 : 120.92788696289062, 28.833961486816406 : 29.177284240722656]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.27557373046875,28.833961486816406,120.92788696289062,29.177284240722656, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:36 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:36 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.30338287353516 : 120.95569610595703, 28.918418884277344 : 29.261741638183594]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.30338287353516,28.918418884277344,120.95569610595703,29.261741638183594, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:38 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:38 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.3390884399414 : 120.99140167236328, 28.965110778808594 : 29.308433532714844]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.3390884399414,28.965110778808594,120.99140167236328,29.308433532714844, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:39 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:39 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.24707794189453 : 120.8993911743164, 28.733367919921875 : 29.076690673828125]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.24707794189453,28.733367919921875,120.8993911743164,29.076690673828125, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:40 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:40 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.34372329711914 : 120.66987991333008, 28.864517211914062 : 29.036178588867188]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.34372329711914,28.864517211914062,120.66987991333008,29.036178588867188, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:46 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:46 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.29548645019531 : 120.62164306640625, 28.81336212158203 : 28.985023498535156]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.29548645019531,28.81336212158203,120.62164306640625,28.985023498535156, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:46 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:46 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.38071632385254 : 120.54379463195801, 28.869237899780273 : 28.955068588256836]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.38071632385254,28.869237899780273,120.54379463195801,28.955068588256836, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:48 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:48 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.41745185852051 : 120.49899101257324, 28.89627456665039 : 28.939189910888672]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.41745185852051,28.89627456665039,120.49899101257324,28.939189910888672, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:50 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:51 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.43584108352661 : 120.47661066055298, 28.909106254577637 : 28.930563926696777]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.43584108352661,28.909106254577637,120.47661066055298,28.930563926696777, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:52 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:52 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.44963300228119 : 120.45982539653778, 28.9187353849411 : 28.924099802970886]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.44963300228119,28.9187353849411,120.45982539653778,28.924099802970886, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:55 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:55 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.4510760307312 : 120.4612684249878, 28.91847789287567 : 28.923842310905457]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.4510760307312,28.91847789287567,120.4612684249878,28.923842310905457, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:56 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:57 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.45338273048401 : 120.4584789276123, 28.920197188854218 : 28.92287939786911]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.45338273048401,28.920197188854218,120.4584789276123,28.92287939786911, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:20:58 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:20:58 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.45457631349564 : 120.45712441205978, 28.92105683684349 : 28.922397941350937]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.45457631349564,28.92105683684349,120.45712441205978,28.922397941350937, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:21:02 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:21:02 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.45547150075436 : 120.4561085253954, 28.921700567007065 : 28.922035843133926]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.45547150075436,28.921700567007065,120.4561085253954,28.922035843133926, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:21:06 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:21:06 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.45517310500145 : 120.45644715428352, 28.921485990285873 : 28.922156542539597]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.45517310500145,28.921485990285873,120.45644715428352,28.922156542539597, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:21:07 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:21:07 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.45099556446075 : 120.46118795871735, 28.9184832572937 : 28.923847675323486]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1000
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.45099556446075,28.9184832572937,120.46118795871735,28.923847675323486, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=1900, HEIGHT=1000, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1900
+27 七月 14:23:05 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:23:05 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[119.223682 : 120.7794322, 28.5270719 : 29.6848581]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 571
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@28b1c7eb]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=119.223682,28.5270719,120.7794322,29.6848581, VERSION=1.1.0, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=571, LAYERS=smgis:majorway}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+27 七月 14:23:06 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:23:07 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[118.94622802734375 : 121.05560302734375, 28.321380615234375 : 29.889678955078125]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 571
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@28b1c7eb]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=118.94622802734375,28.321380615234375,121.05560302734375,29.889678955078125, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=571, TRANSPARENT=true, LAYERS=smgis:majorway}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+27 七月 14:23:16 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:23:16 INFO   [geoserver.wms] - 
+Request: getFeatureInfo
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Exceptions = application/vnd.ogc.se_inimage
+	ExcludeNodataResults = false
+	FeatureCount = 50
+	Get = false
+	GetMapRequest = 
+GetMap Request
+ version: 1.1.1
+ output format: image/png
+ width height: 101,101
+ bbox: SRSEnvelope[119.89403788000347 : 120.17144266515972, 29.217447638511658 : 29.494852423667908]
+ layers: majorway
+ styles: line
+	InfoFormat = text/html
+	PropertyNames = null
+	QueryLayers = [org.geoserver.wms.MapLayerInfo@28b1c7eb]
+	RawKvp = {FORMAT=image/png, INFO_FORMAT=text/html, STYLES=, WIDTH=101, HEIGHT=101, LAYERS=smgis:majorway, EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetFeatureInfo, SRS=EPSG:4326, BBOX=119.89403788000347,29.217447638511658,120.17144266515972,29.494852423667908, VERSION=1.1.1, X=50, Y=50, SERVICE=WMS, QUERY_LAYERS=smgis:majorway, TRANSPARENT=true, FEATURE_COUNT=50}
+	Request = GetFeatureInfo
+	RequestCharset = null
+	Version = 1.1.1
+	XPixel = 50
+	YPixel = 50
+27 七月 14:23:16 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:23:16 INFO   [geoserver.wms] - 
+Request: getFeatureInfo
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Exceptions = application/vnd.ogc.se_inimage
+	ExcludeNodataResults = false
+	FeatureCount = 50
+	Get = false
+	GetMapRequest = 
+GetMap Request
+ version: 1.1.1
+ output format: image/png
+ width height: 101,101
+ bbox: SRSEnvelope[119.93351966142656 : 120.21092444658281, 29.196388442069292 : 29.473793227225542]
+ layers: majorway
+ styles: line
+	InfoFormat = text/html
+	PropertyNames = null
+	QueryLayers = [org.geoserver.wms.MapLayerInfo@28b1c7eb]
+	RawKvp = {FORMAT=image/png, INFO_FORMAT=text/html, STYLES=, WIDTH=101, HEIGHT=101, LAYERS=smgis:majorway, EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetFeatureInfo, SRS=EPSG:4326, BBOX=119.93351966142656,29.196388442069292,120.21092444658281,29.473793227225542, VERSION=1.1.1, X=50, Y=50, SERVICE=WMS, QUERY_LAYERS=smgis:majorway, TRANSPARENT=true, FEATURE_COUNT=50}
+	Request = GetFeatureInfo
+	RequestCharset = null
+	Version = 1.1.1
+	XPixel = 50
+	YPixel = 50
+27 七月 14:23:17 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:23:18 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[118.9874267578125 : 121.0968017578125, 28.230743408203125 : 29.799041748046875]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 571
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@28b1c7eb]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=118.9874267578125,28.230743408203125,121.0968017578125,29.799041748046875, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=571, TRANSPARENT=true, LAYERS=smgis:majorway}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+27 七月 14:23:18 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:23:18 INFO   [geoserver.wms] - 
+Request: getFeatureInfo
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Exceptions = application/vnd.ogc.se_inimage
+	ExcludeNodataResults = false
+	FeatureCount = 50
+	Get = false
+	GetMapRequest = 
+GetMap Request
+ version: 1.1.1
+ output format: image/png
+ width height: 101,101
+ bbox: SRSEnvelope[119.96897175908089 : 120.24637654423714, 29.146676715463403 : 29.424081500619653]
+ layers: majorway
+ styles: line
+	InfoFormat = text/html
+	PropertyNames = null
+	QueryLayers = [org.geoserver.wms.MapLayerInfo@28b1c7eb]
+	RawKvp = {FORMAT=image/png, INFO_FORMAT=text/html, STYLES=, WIDTH=101, HEIGHT=101, LAYERS=smgis:majorway, EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetFeatureInfo, SRS=EPSG:4326, BBOX=119.96897175908089,29.146676715463403,120.24637654423714,29.424081500619653, VERSION=1.1.1, X=50, Y=50, SERVICE=WMS, QUERY_LAYERS=smgis:majorway, TRANSPARENT=true, FEATURE_COUNT=50}
+	Request = GetFeatureInfo
+	RequestCharset = null
+	Version = 1.1.1
+	XPixel = 50
+	YPixel = 50
+27 七月 14:23:19 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 14:23:19 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[119.080810546875 : 121.190185546875, 28.142852783203125 : 29.711151123046875]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 571
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@28b1c7eb]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=119.080810546875,28.142852783203125,121.190185546875,29.711151123046875, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=571, TRANSPARENT=true, LAYERS=smgis:majorway}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+27 七月 17:07:44 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+27 七月 17:07:48 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+27 七月 17:07:48 CONFIG [org.geoserver] - Loading catalog /Users/zhangliangpan/IdeaProjects/2.22/fork/geoserver/src/web/app/lib/data
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'point'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'raster'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'generic'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'polygon'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'line'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded default workspace 'smgis'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded workspace 'smgis'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'waterline'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'majorway'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'greenland'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'waterzone'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'town'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'otherway'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'secondaryway'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'district'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'zone'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded style 'motorway'
+27 七月 17:07:49 CONFIG [org.geoserver] - Loaded data store 'polygon', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded feature type 'zone', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded layer 'zone'
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded feature type 'waterzone', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded layer 'waterzone'
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded feature type 'city', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded layer 'city'
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded feature type 'town', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded layer 'town'
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded data store 'line', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded feature type 'otherway', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded layer 'otherway'
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded feature type 'secondaryway', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded layer 'secondaryway'
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded feature type 'motorway', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded layer 'motorway'
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded feature type 'waterline', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded layer 'waterline'
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded feature type 'majorway', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded layer 'majorway'
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded layer group 'road_map'
+27 七月 17:07:51 CONFIG [org.geoserver] - Read catalog in 2.431 s
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded service 'wcs', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded service 'wfs', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded service 'wms', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--578fb47d:189969ac142:-8000', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded service 'WPSInfoImpl-5efd2432:1899127d70d:-7ffe', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-5efd2432:1899127d70d:-7fc6', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-5efd2432:1899127d70d:-7fc7', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-5efd2432:1899127d70d:-7fc9', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-5efd2432:1899127d70d:-7fc8', enabled
+27 七月 17:07:51 CONFIG [org.geoserver] - Loaded service 'WPSInfoImpl-5efd2432:1899127d70d:-7fc5', enabled
+27 七月 17:07:51 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/Users/zhangliangpan/IdeaProjects/2.22/fork/geoserver/src/web/app/lib/data/gwc'.
+27 七月 17:07:52 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+27 七月 17:07:52 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+27 七月 17:07:52 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+27 七月 17:07:52 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+27 七月 17:07:52 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+27 七月 17:07:52 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+27 七月 17:07:52 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+27 七月 17:07:52 CONFIG [gwc.layer] - Loaded 10 tile layers in 32.38 ms
+27 七月 17:07:52 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+27 七月 17:07:52 CONFIG [storage.DefaultStorageFinder] - Found servlet context parameterGEOSERVER_DATA_DIR set to /Users/zhangliangpan/IdeaProjects/2.22/fork/geoserver/src/web/app/lib/data, using it as the default prefix.
+27 七月 17:07:52 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+27 七月 17:07:52 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/Users/zhangliangpan/IdeaProjects/2.22/fork/geoserver/src/web/app/lib/data/gwc'.
+27 七月 17:07:52 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/Users/zhangliangpan/IdeaProjects/2.22/fork/geoserver/src/web/app/lib/data/gwc'.
+27 七月 17:07:52 CONFIG [diskquota.ConfigLoader] - Quota config is: gwc/geowebcache-diskquota.xml
+27 七月 17:07:53 CONFIG [diskquota.ConfigLoader] - Quota config is: gwc/geowebcache-diskquota.xml
+27 七月 17:07:53 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+27 七月 17:07:53 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+27 七月 17:07:53 CONFIG [diskquota.DiskQuotaMonitor] - 10 layers attached to global quota 10.0 GB
+27 七月 17:07:53 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 60 SECONDS
+27 七月 17:08:01 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+27 七月 17:08:01 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+27 七月 17:08:01 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+27 七月 17:08:01 WARN   [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+27 七月 17:08:02 CONFIG [geoserver.wps] - Found 5 bindable processes in GeoServer specific processes
+27 七月 17:08:02 CONFIG [geoserver.wps] - Found 89 bindable processes in Deprecated processes
+27 七月 17:08:02 CONFIG [geoserver.wps] - Blacklisting process ras:ConvolveCoverage as the input kernel of type class javax.media.jai.KernelJAI cannot be handled
+27 七月 17:08:02 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input zones of type class java.lang.Object cannot be handled
+27 七月 17:08:02 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input nodata of type class it.geosolutions.jaiext.range.Range cannot be handled
+27 七月 17:08:02 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input rangeData of type class java.lang.Object cannot be handled
+27 七月 17:08:02 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the output zonal statistics of type interface java.util.List cannot be handled
+27 七月 17:08:02 CONFIG [geoserver.wps] - Found 18 bindable processes in Raster processes
+27 七月 17:08:02 CONFIG [geoserver.wps] - Blacklisting process vec:GroupCandidateSelection as the input groupingAttributes of type class java.lang.Object cannot be handled
+27 七月 17:08:02 CONFIG [geoserver.wps] - Found 31 bindable processes in Vector processes
+27 七月 17:08:02 CONFIG [geoserver.wps] - Found 48 bindable processes in Geometry processes
+27 七月 17:08:02 CONFIG [geoserver.wps] - Found 1 bindable processes in PolygonLabelProcess
+27 七月 17:08:02 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+27 七月 17:08:02 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+27 七月 17:08:02 CONFIG [geoserver.importer] - Initial importer configuration
+27 七月 17:08:03 WARN   [geoserver.security] - security/masterpw.info is a security risk. Please read this file and remove it afterward
+27 七月 17:08:03 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+27 七月 17:08:03 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+27 七月 17:08:03 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+27 七月 17:08:03 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+27 七月 17:08:03 INFO   [geoserver.importer] - Enabling import store: memory
+27 七月 17:08:15 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 17:08:15 WARN   [geotools.xsd] - Sax parser property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' not recognized.  Xerces version is incompatible.
+27 七月 17:08:17 WARN   [geotools.xsd] - Sax parser property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' not recognized.  Xerces version is incompatible.
+27 七月 17:08:17 WARN   [geotools.xsd] - Sax parser property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' not recognized.  Xerces version is incompatible.
+27 七月 17:08:17 WARN   [geotools.xsd] - Sax parser property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' not recognized.  Xerces version is incompatible.
+27 七月 17:08:17 WARN   [geotools.xsd] - Sax parser property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' not recognized.  Xerces version is incompatible.
+27 七月 17:08:17 WARN   [geotools.xsd] - Sax parser property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' not recognized.  Xerces version is incompatible.
+27 七月 17:08:18 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[119.20064780720423 : 120.7808396634813, 28.38219098158431 : 29.717280086431543]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 648
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=119.20064780720423,28.38219098158431,120.7808396634813,29.717280086431543, VERSION=1.1.0, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=648, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+27 七月 17:08:18 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 17:08:20 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[118.93524169921875 : 121.04461669921875, 28.16070556640625 : 29.94049072265625]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 648
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=118.93524169921875,28.16070556640625,121.04461669921875,29.94049072265625, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=648, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+27 七月 17:08:21 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 17:08:22 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[119.66171264648438 : 120.71640014648438, 28.648223876953125 : 29.538116455078125]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 648
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=119.66171264648438,28.648223876953125,120.71640014648438,29.538116455078125, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=648, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+27 七月 17:08:23 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 17:08:23 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[120.02494812011719 : 120.55229187011719, 28.891983032226562 : 29.336929321289062]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 648
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6, org.geoserver.wms.MapLayerInfo@759b2396, org.geoserver.wms.MapLayerInfo@766326de, org.geoserver.wms.MapLayerInfo@8c140dc2, org.geoserver.wms.MapLayerInfo@cc3e2e26, org.geoserver.wms.MapLayerInfo@28b1c7eb, org.geoserver.wms.MapLayerInfo@e8008ca7, org.geoserver.wms.MapLayerInfo@696eb6f, org.geoserver.wms.MapLayerInfo@6eb5595]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=120.02494812011719,28.891983032226562,120.55229187011719,29.336929321289062, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=648, TRANSPARENT=true, LAYERS=smgis:road_map}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=district], StyleImpl[ name=waterline], StyleImpl[ name=waterzone], StyleImpl[ name=otherway], StyleImpl[ name=secondaryway], StyleImpl[ name=majorway], StyleImpl[ name=motorway], StyleImpl[ name=town], StyleImpl[ name=zone]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+27 七月 17:08:31 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 17:08:31 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[119.20064780720423 : 120.7808396634813, 28.38219098158431 : 29.717280086431543]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 648
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=119.20064780720423,28.38219098158431,120.7808396634813,29.717280086431543, VERSION=1.1.0, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=648, LAYERS=smgis:city}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=polygon]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+27 七月 17:08:31 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+27 七月 17:08:31 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://127.0.0.1:2080/geoserver/
+	Bbox = SRSEnvelope[118.93524169921875 : 121.04461669921875, 28.16070556640625 : 29.94049072265625]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 648
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@5a497b6]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=118.93524169921875,28.16070556640625,121.04461669921875,29.94049072265625, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=648, TRANSPARENT=true, LAYERS=smgis:city}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=polygon]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
