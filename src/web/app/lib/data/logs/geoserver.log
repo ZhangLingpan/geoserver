@@ -2442,3 +2442,5 @@ Request: getMap
 	Version = 1.1.1
 	ViewParams = null
 	Width = 768
+31 七月 10:05:32 WARN   [servlet.PageNotFound] - No mapping for GET /geoserver/smgis/wms
+31 七月 10:05:32 WARN   [servlet.PageNotFound] - No mapping for GET /geoserver/smgis/wms
